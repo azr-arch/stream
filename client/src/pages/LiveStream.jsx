@@ -30,7 +30,7 @@ const LiveStream = () => {
     }
 
     //sending the STREAM KEY to server here
-    const res = await fetch("http://localhost:8080/start-stream", {
+    const res = await fetch("https://streamyardclone.onrender.com/start-stream", {
       method: "post",
       headers: {
         "Content-type": "application/json",
